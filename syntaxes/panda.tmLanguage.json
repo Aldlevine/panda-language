@@ -1,0 +1,36 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "name": "Panda",
+  "scopeName": "source.panda",
+  "patterns": [
+    {
+      "name": "keyword.control.panda",
+      "match": "\\b(tree|sequence|fallback|parallel|race|random|repeat|while|not|mute)\\b"
+    },
+    {
+      "name": "constant.numeric.panda",
+      "match": "\\b(\\d+\\.\\d+|\\.?\\d+)\\b"
+    },
+    {
+      "name": "string.quoted.double.panda",
+      "begin": "\"",
+      "end": "\"",
+      "patterns": [
+        {
+          "name": "constant.character.escape.panda",
+          "match": "\\\\."
+        }
+      ]
+    },
+    {
+      "name": "comment.line.panda",
+      "begin": "^(\\s*)//",
+			"end": "$"
+    },
+    {
+      "name": "comment.block.panda",
+      "begin": "/\\*",
+      "end": "\\*/"
+    }
+  ]
+}
