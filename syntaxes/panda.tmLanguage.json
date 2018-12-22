@@ -28,7 +28,7 @@
     },
     {
       "name": "comment.line.panda",
-      "begin": "^(\\s*)//",
+      "begin": "//",
 			"end": "$"
     },
     {
