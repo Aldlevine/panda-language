@@ -20,6 +20,10 @@ This extension provides language features for the [Panda BT](http://www.pandabeh
 1. Download the latest VISX file from the repo's _Releases_ tab on Github.
 2. Follow steps 6-8 in the "From Source" instructions.
 
+## Notes
+
+Since Panda scripts must be TextAssets and Unity only supports specific file-extensions as TextAssets (Panda uses `.txt`). This has been designed to expect a pseudo-file-extension `.BT.txt`. If this doesn't fit your workflow/current project, VSCode allows you to set up [custom file associations](https://stackoverflow.com/a/36789145).
+
 ## Contributing
 
 Issues are more than welcome, but PRs are preferred as I won't always have the time to address issues quickly.
