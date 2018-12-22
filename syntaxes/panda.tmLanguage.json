@@ -8,6 +8,10 @@
       "match": "\\b(tree|sequence|fallback|parallel|race|random|repeat|while|not|mute)\\b"
     },
     {
+      "name": "constant.language.panda",
+      "match": "\\b(true|false)\\b"
+    },
+    {
       "name": "constant.numeric.panda",
       "match": "\\b(\\d+\\.\\d+|\\.?\\d+)\\b"
     },
