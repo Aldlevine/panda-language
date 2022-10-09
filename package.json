@@ -20,7 +20,8 @@
         ],
         "extensions": [
           ".BT.txt",
-          ".BT.lib.txt"
+          ".BT.lib.txt",
+          ".pbt"
         ],
         "configuration": "./language-configuration.json"
       }
