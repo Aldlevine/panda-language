@@ -8,12 +8,8 @@
       "match": "\\b(tree|sequence|fallback|parallel|race|random|repeat|while|not|mute|if|ifelse|break|retry)\\b"
     },
     {
-      "name": "keyword.control.panda",
-      "match": "[|&!]"
-    },
-    {
       "name": "variable.parameter.panda",
-      "match": "@[a-zA-Z0-9_]+\\b"
+      "match": "[@&]{1}[a-zA-Z0-9_]+\\b"
     },    
     {
       "name": "support.function.panda",
@@ -26,6 +22,10 @@
     {
       "name": "constant.numeric.panda",
       "match": "\\b(\\d+\\.\\d+|\\.?\\d+)\\b"
+    },
+    {
+      "name": "keyword.control.panda",
+      "match": "[|&!]"
     },
     {
       "name": "string.quoted.double.panda",
