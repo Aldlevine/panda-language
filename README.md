@@ -1,3 +1,6 @@
+# Archived
+I am archiving this because I no longer have a use for it, and don't have the time to keep it up to date. Sorry!
+
 # VSCode Panda Language
 
 This extension provides language features for the [Panda BT](http://www.pandabehaviour.com/). Currently it only provides basic syntax highlighting. If there is interest, features may be added to include, for example, IntelliSense for task autocompletion.
