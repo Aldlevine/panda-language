@@ -5,15 +5,27 @@
   "patterns": [
     {
       "name": "keyword.control.panda",
-      "match": "\\b(tree|sequence|fallback|parallel|race|random|repeat|while|not|mute)\\b"
+      "match": "\\b(tree|sequence|fallback|parallel|race|random|repeat|while|not|mute|if|ifelse|break|retry)\\b"
     },
     {
+      "name": "variable.parameter.panda",
+      "match": "[@&]{1}[a-zA-Z0-9_]+\\b"
+    },    
+    {
+      "name": "support.function.panda",
+      "match": "#[a-zA-Z0-9_]+\\b"
+    },           
+    {
       "name": "constant.language.panda",
-      "match": "\\b(true|false)\\b"
+      "match": "\\b(true|false|null)\\b"
     },
     {
       "name": "constant.numeric.panda",
       "match": "\\b(\\d+\\.\\d+|\\.?\\d+)\\b"
+    },
+    {
+      "name": "keyword.control.panda",
+      "match": "[|&!]"
     },
     {
       "name": "string.quoted.double.panda",
