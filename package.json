@@ -1,7 +1,7 @@
 {
   "name": "panda-language",
   "displayName": "Panda Language",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "publisher": "aldlevine",
   "engines": {
     "vscode": "^1.30.1"

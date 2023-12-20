@@ -5,7 +5,7 @@
   "patterns": [
     {
       "name": "keyword.control.panda",
-      "match": "\\b(tree|sequence|fallback|parallel|race|random|repeat|while|not|mute|if|ifelse|break|retry)\\b"
+      "match": "\\b(tree|sequence|fallback|parallel|race|random|repeat|while|not|mute|if|ifelse|break|retry|before)\\b"
     },
     {
       "name": "variable.parameter.panda",
